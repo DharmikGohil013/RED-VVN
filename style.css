@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f4a4a4;
     margin: 0;
     padding: 0;
 }
@@ -14,7 +14,7 @@ main {
 .product-section {
     margin-bottom: 40px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #440000;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 8px;
 }
