@@ -25,6 +25,7 @@ nav .menu-img{
 nav .logo{
     width: 160px;
     cursor: pointer;
+    color: red;
 }
 nav ul{
     flex: 1;
@@ -71,11 +72,14 @@ button span{
     position: absolute;
     top: 97%;
     left: 50%;
+    width: 270px;
+    height: 450px;
     transform: translateX(-50%);
-    width: 700px;
+    
+   
     margin-left: -10px;
-    opacity: 0;
-    transition: opacity 0.5s;
+    opacity: 0.1;
+    transition: opacity 0.2s;
 }
 .text-container{
     max-width: 600px;
