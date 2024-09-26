@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Red-Vvn</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="discover.css">
 </head>
 <body>
     
@@ -39,7 +40,14 @@
             <h1 style="color: red;">Red  Hub</h1>
             <p style="font-size: 30px; color: rgba(255, 109, 109, 0.639);">First Use And Then Trust..</p>
             <p >Every Blondes Are Available</p>
-            <a href="#first">Choose Partner</a>
+            <a href="#first" id="soundButton">Choose Partner</a>
+            <audio id="clickSound" src="1.mp3"></audio>
+            <script>
+                document.getElementById('soundButton').addEventListener('click', function() {
+    var sound = document.getElementById('clickSound');
+    sound.play();
+});
+            </script>
            
         </div>
 
@@ -143,45 +151,32 @@
                 </div>
             </section>
     
-            <section class="product-section" id="5th">
+            <section class="product-section" id="4th">
                 <h2>Section 1</h2>
                 <div class="card-container">
                     <div class="card">
                         <img src="https://via.placeholder.com/150" alt="Product 1">
-                        <h3>Minji</h3>
+                        <h3>Maria</h3>
                         <p class="price">$19.99</p>
-                    </div><div class="cards-wrapper">
-                        <div class="card" data-tilt>
-                          <div class="card-img-wrapper">
-                            <img src="1.png" alt="CEO" />
-                          </div>
-                          <div class="card-info">
-                            <h2>DHARMIK GOHIL</h2>
-                            <h3>CEO</h3>
-                            <p>
-                              "The Ceo Of DGF And His Partners. Game Devloper For The Excusion Game Make!"
-                            </p>
-                            <button>Read More</button>
-                          </div>
-                        </div>
+                    </div>
                     <div class="card">
                         <img src="https://via.placeholder.com/150" alt="Product 2">
-                        <h3>Yujin</h3>
+                        <h3>Laura</h3>
                         <p class="price">$29.99</p>
                     </div>
                     <div class="card">
                         <img src="https://via.placeholder.com/150" alt="Product 3">
-                        <h3>Nari</h3>
+                        <h3>Giana</h3>
                         <p class="price">$39.99</p>
                     </div>
                     <div class="card">
                         <img src="https://via.placeholder.com/150" alt="Product 4">
-                        <h3>Jin</h3>
+                        <h3>Sofia</h3>
                         <p class="price">$49.99</p>
                     </div>
                     <div class="card">
                         <img src="https://via.placeholder.com/150" alt="Product 4">
-                        <h3>Yuri</h3>
+                        <h3>Angela</h3>
                         <p class="price">$49.99</p>
                     </div>
                     
